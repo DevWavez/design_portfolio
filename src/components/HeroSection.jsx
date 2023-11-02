@@ -7,14 +7,7 @@ import {
   AiOutlineGithub,
 } from "react-icons/ai";
 
-{
-  /* IMPORT CAROUSEL ITEMS */
-}
-
-import Item1 from "../assets/plan.jpg";
-import Item2 from "../assets/meeting.jpg";
-import Item3 from "../assets/styling.jpg";
-import Item4 from "../assets/whiteboard.jpg";
+import company from "../assets/plan.jpg";
 
 const HeroSection = () => {
   return (
@@ -36,38 +29,9 @@ const HeroSection = () => {
             devices.
           </p>
         </div>
-        {/* Carousel */}
-        <div className="flex justify-center my-5">
-          <div className="w-64 carousel rounded-box">
-            <div className="carousel-item w-full">
-              <img
-                src={Item1}
-                className="w-full"
-                alt="Tailwind CSS Carousel component"
-              />
-            </div>
-            <div className="carousel-item w-full">
-              <img
-                src={Item2}
-                className="w-full"
-                alt="Tailwind CSS Carousel component"
-              />
-            </div>
-            <div className="carousel-item w-full">
-              <img
-                src={Item3}
-                className="w-full"
-                alt="Tailwind CSS Carousel component"
-              />
-            </div>
-            <div className="carousel-item w-full">
-              <img
-                src={Item4}
-                className="w-full"
-                alt="Tailwind CSS Carousel component"
-              />
-            </div>
-          </div>
+
+        <div className="flex justify-center items-center my-1 w-[500px] h-[500px]">
+          <img src={company} alt="" />
         </div>
 
         {/* Social Icons */}
