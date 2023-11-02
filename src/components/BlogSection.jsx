@@ -39,7 +39,7 @@ const WorkSection = () => {
           <h2 className="text-3xl font-bold tracking-tight text-gray-300 sm:text-4xl">
             From our Blog Team
           </h2>
-          <p className="mt-2 text-lg leading-8 text-gray-600">
+          <p className="mt-2 text-lg leading-8 text-[#D5E3EF]">
             Learn how to grow your business with our expert advice.
           </p>
         </div>
@@ -50,12 +50,12 @@ const WorkSection = () => {
               className="flex max-w-xl flex-col items-start justify-between"
             >
               <div className="flex items-center gap-x-4 text-xs">
-                <time dateTime={post.datetime} className="text-gray-300">
+                <time dateTime={post.datetime} className="text-gray-400">
                   {post.date}
                 </time>
                 <a
                   href={post.category.href}
-                  className="relative z-10 rounded-full bg-gray-50 px-3 py-1.5 font-medium text-gray-500 hover:bg-gray-100"
+                  className="relative z-10 rounded-full bg-gray-500 px-3 py-1.5 font-medium text-gray-50 hover:bg-gray-100"
                 >
                   {post.category.title}
                 </a>
@@ -67,7 +67,7 @@ const WorkSection = () => {
                     {post.title}
                   </a>
                 </h3>
-                <p className="mt-5 line-clamp-3 text-sm leading-6 text-gray-600">
+                <p className="mt-5 line-clamp-3 text-sm leading-6 text-[#6686B0]">
                   {post.description}
                 </p>
               </div>
