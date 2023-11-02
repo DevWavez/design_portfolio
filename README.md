@@ -16,7 +16,7 @@ npm install
 👤 **DevWavez**
 
 - Github: [@DaveWavez](https://github.com/DaveWavez)
-- LinkedIn: [@Ramo Döring](kedin.com/in/ramo-döring-583ab618a/)
+- LinkedIn: [@Ramo Döring](linkedin.com/in/ramo-döring-583ab618a/)
 
 ## Show your support
 
