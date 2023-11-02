@@ -16,7 +16,7 @@ const people = [
       "https://images.unsplash.com/photo-1554151228-14d9def656e4?auto=format&fit=crop&q=60&w=400&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8R2VzaWNodHxlbnwwfDF8MHx8fDA%3D",
   },
   {
-    name: "Daniel",
+    name: "Daniel Costas",
     role: "Marketing",
     imageUrl:
       "https://images.unsplash.com/photo-1499996860823-5214fcc65f8f?auto=format&fit=crop&q=60&w=400&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8R2VzaWNodHxlbnwwfDF8MHx8fDA%3D",
